@@ -209,3 +209,171 @@ main section{
 margin-top: 130px;
 margin-bottom: 130px;
 }
+
+
+
+
+/* resume section styles */
+
+.resume-container{
+
+display: flex;
+gap: 24px;
+
+
+}
+
+.experience-description, .experence-sub-title{
+
+    color: #757575;
+
+
+}
+
+.experence-sub-title{
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+
+.resume hr{
+
+margin: 30px 5px;
+  
+}
+
+
+.footer-culumn{
+
+
+
+}
+
+
+footer{
+
+padding: 130px 230px;
+display: flex;
+gap: 100px;
+
+
+
+}
+
+.footer-culumn{
+
+width: 50%;
+
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+
+height: 64px;
+border-radius: 5px;
+background-color: white;
+display: block;
+width: 100%;
+padding: 10px 20px;
+margin-bottom: 24px;
+border: none;
+ 
+}
+
+/* Responsive Section Start */
+
+
+.hide{
+
+display: none;
+
+
+}
+
+
+@media screen and (max-width:576px) {
+    
+.skillls-container, 
+footer, 
+.banner,
+
+nav > ul, 
+.about-items{
+flex-direction: column;
+
+}
+
+.resume-container{
+
+    flex-direction: column;
+
+}
+
+nav > ul{
+
+gap: 20px;
+
+}
+
+
+footer, .about{
+
+padding: 20px;
+
+}
+
+
+.btn-primary{
+
+margin-bottom: 20px;
+
+
+}
+
+.footer-culumn{
+width: 100%;
+
+}
+
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+
+width: calc(100% - 40px );
+
+}
+
+
+.banner{
+
+    margin: 20px;
+
+}
+
+.banner-profile-pic{
+
+width: 100%;
+
+}
+
+.header{
+
+    background-image: none;
+
+}
+
+
+}
+
+/* Tablet spasific Media Query */
+
+
+@media screen and (min-width:576px) and (max-width:990px){
+
+.banner{
+
+    flex-direction: column;
+
+}
+
+
+    
+}
